@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # ================= LOAD MODEL =================
-model = load_model("churn_model.keras")
+model = load_model("churn_model.h5")
 scaler = joblib.load("scaler.pkl")
 columns = joblib.load("columns.pkl")
 
